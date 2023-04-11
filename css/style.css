@@ -6,3 +6,8 @@
 h1{
     color: rgba(229,49,112,255);
 }
+
+p{
+    font-family: 'Fredoka', sans-serif;
+    padding-top: 25px;
+}
