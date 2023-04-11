@@ -7,16 +7,18 @@
 /* HEADER */
 header{
     text-align: center;
-    font-family: 'Fredoka', sans-serif;;
+    font-family: 'Fredoka', sans-serif;
 }
 
 h1{
     color: rgba(229,49,112,255);
+    padding-top: 30px;
 }
 
 p{
     font-family: 'Fredoka', sans-serif;
-    padding-top: 25px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 /* FINE HEADER */
 /* LAYOUT MAIN */
@@ -44,22 +46,25 @@ img{
     width: 6rem;
     height: 6rem;
     float: left;
+    margin-right: 15px;
 }
 
 h2{
     font-family: 'Fredoka', sans-serif;
     color: white;
+    width: 75%;
+    font-size: 20px;
     padding: 5px;
 }
 
 .row p:first-of-type{
-    padding: 5px;
     color: white;
+    padding: 4px;
 }
 
 .row p:last-of-type{
-    padding: 4px;
     color: rgba(67,147,198,255);
+    padding: 1px;
 }
 /* FINE LAYOUT MAIN */
 
