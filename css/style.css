@@ -27,9 +27,11 @@ p{
 .row{
     float: left;
     width: 100%;
-    margin: 40px 15px;
+    margin: 30px 15px;
     width: calc(100% / 3 - 30px);
-    background-color:rgba(15,14,23,255)
+    background-color:rgba(15,14,23,255);
+    box-shadow: 2px 3px 10px;
+    
 }
 
 .row::after{
@@ -56,7 +58,7 @@ h2{
 }
 
 .row p:last-of-type{
-    padding: 5px;
+    padding: 4px;
     color: rgba(67,147,198,255);
 }
 /* FINE LAYOUT MAIN */
