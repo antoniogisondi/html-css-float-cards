@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* INTESTAZIONE DEL CORPO DELLA PAGINA */
 .header{
     text-align: center;
     font-family: 'Fredoka', sans-serif;;
@@ -11,3 +18,32 @@ p{
     font-family: 'Fredoka', sans-serif;
     padding-top: 25px;
 }
+/* FINE INTESTAZIONE DEL CORPO DELLA PAGINA */
+/* LAYOUT */
+.container{
+    float: left;
+    width: 100%;
+    margin: 20px; 
+    width: calc(100% / 3 - 40px);
+    background-color:rgba(15,14,23,255)
+}
+
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img{
+    width: 5rem;
+    height: 5rem;
+    float: left;
+}
+
+h2{
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+    padding-left: 3px;
+}
+
+
